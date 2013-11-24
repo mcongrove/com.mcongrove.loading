@@ -5,19 +5,13 @@ A loading overlay widget for Titanium Alloy.
 Example Usage
 -------------
 
-	Coming Soon
-
-Options
--------
-Parameter   | Type        | Default 
-------------|-------------|------------
-Coming Soon | Coming Soon | Coming Soon
-
-Methods
--------
-Function    | Parameters  | Description 
-------------|-------------|------------
-Coming Soon | Coming Soon | Coming Soon
+	var loading = Alloy.createWidget("com.mcongrove.loading").getView();
+	
+	$.Wrapper.add(loading);
+	
+	setTimeout(function() {
+		$.Wrapper.remove(loading);
+	}, 2000);
 
 Changelog
 ---------
